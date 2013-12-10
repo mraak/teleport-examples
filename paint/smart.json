@@ -1,7 +1,5 @@
-{ "packages":
-  { "router": {}
-  , "streams": {}
-  , "raven": {}
-  , "tport-library": {"path": "packages/tport-library"}
+{
+  "packages": {
+    "tport-library": {}
   }
 }
