@@ -1,0 +1,43 @@
+<head>
+	<title>Teleport</title>
+</head>
+
+<body>
+	{{renderPage}}
+</body>
+
+<template name="application">
+	<div id="application">
+		{{#if authentication}}
+		{{> loading}}
+		{{/if}}
+		
+		{{#if login}}
+		{{> login}}
+		{{/if}}
+		
+		{{#if start}}
+		{{> loading}}
+		{{/if}}
+		
+		{{#if processSession}}
+		{{> loading}}
+		{{/if}}
+		
+		{{#if trackUser}}
+		{{> loading}}
+		{{/if}}
+		
+		{{#if tool}}
+		{{> tool}}
+		{{/if}}
+		
+		{{#if error}}
+		{{> error}}
+		{{/if}}
+		
+		{{#if notFound}}
+		{{> notFound}}
+		{{/if}}
+	</div>
+</template>

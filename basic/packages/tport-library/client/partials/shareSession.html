@@ -1,0 +1,5 @@
+<template name="shareSession">
+	<p>Share the link below with up to {{maxParticipants}} other people<br />to join this Teleport session.</p>
+	<p><input onclick="select()" type="text" readonly="readonly" value="{{shortLink}}"/></p>
+	<p><a class="btn btn-primary btn-large" href="{{shareEmail}}">Share via Email</a></p>
+</template>

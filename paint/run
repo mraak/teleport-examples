@@ -1,0 +1,3 @@
+#!/bin/bash
+mrt add tport-library
+meteor --settings settings.json

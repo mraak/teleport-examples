@@ -1,0 +1,52 @@
+<template name="login">
+	<div id="login">
+		{{> logo}}
+		
+		<div id="dialog" class="modal startDialog" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-header">
+				{{#unless loginRequired}}
+				<h3 id="myModalLabel">Teleport Now</h3>
+				{{#if accessKey}}
+				<p>Join this Teleport session without signing up!</p>
+				{{else}}
+				<p>Create a free {{instantSessionDuration}} minutes Teleport session without signing up!</p>
+				{{/if}}
+				{{else}}
+				<h3 id="myModalLabel">Login required</h3>
+				{{/unless}}
+			</div>
+			
+			<div class="modal-body">
+				<div class="well well-small">
+					{{#if loginRequired}}
+					<p>Login is required for this session.</p>
+					
+					<a class="btn btn-primary" href="{{login}}">Login</a>
+					{{/if}}
+					
+					{{#if guest}}
+					<form>
+						<p>Your name: <input id="guestName" type="text" value="Guest"/> or <a href="{{login}}">login with Teleport</a></p>
+						
+						{{#if accessKey}}
+						<button type="submit" class="btn btn-primary"><i class="icon-facetime-video"></i> Join session</button>
+						{{else}}
+						<button type="submit" class="btn btn-primary">Proceed to session setup <i class="icon-arrow-right"></i></button>
+						{{/if}}
+					</form>
+					
+					{{> startPromo}}
+					{{/if}}
+						
+					{{#if waiting}}
+					<div class="alert">
+						Logging in, please wait.
+					</div>
+					{{/if}}
+				</div>
+			</div>
+			
+			{{> startFooter}}
+		</div>
+	</div>
+</template>

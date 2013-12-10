@@ -1,0 +1,5 @@
+{ "public":
+	{ "server"	: "https://dev.teleporthq.com"
+	}
+, "cookies"	: {"session": "dsessionid"}
+}
