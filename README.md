@@ -3,14 +3,17 @@ Teleport API provides all the bells and whistles for developers to create, test,
 ### 1) Make sure you have everything installed
 
 Install node
+
 http://nodejs.org/download/
 
 Install meteor
+```
 curl https://install.meteor.com | /bin/sh
-
+```
 Install meteorite
+```
 npm install -g meteorite
-
+```
 
 ### 2) Clone and run
 
