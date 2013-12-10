@@ -29,6 +29,12 @@ Open localhost:3000 in a browser, wait for the session to start, then copy the U
 
 <b>Note the URL</b>, it has the <b>accessKey</b> appended, this is what groups the users into a session, or a "room". In code, you can always call accessKey() function to read it. All the users with the same URL will operate in the same session.
 
+On occasion, you might want to update the meteorite packages, just in case.
+
+```
+mrt update
+```
+
 
 ### 3) Roll your own
 
