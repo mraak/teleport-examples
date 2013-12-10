@@ -41,12 +41,12 @@ Here you can make all the changes you want inside the client folder. More docs c
 ### 4) Deploy and distribute
 
 ```
-meteor deploy devmeet-demo --settings settings.json
+meteor deploy my-app-with-some-name --settings settings.json
 ```
-Your app is now published at my-app-with-some-name.meteor.com. You can pass this URL to friends and use it with them simultaneously. 
+Your app is now published at <b>my-app-with-some-name.meteor.com</b>. You can pass this URL to friends and use it with them simultaneously. For production deployment revert to point 5.
 
 
-5) Run in Teleport
+### 5) Run in Teleport
 
 Running your app in Teleport will give you extra benefits of user accounts, video calling, session saving, and other nice things. More info coming soon.
 
