@@ -41,7 +41,7 @@ cd my-app-with-some-name
 Here you can make all the changes you want inside the client folder. More docs coming soon on how to use the API.
 
 
-### 4) Deploy and distribute
+### 4) Deploy and test
 
 ```
 meteor deploy my-app-with-some-name --settings settings.json
@@ -49,7 +49,7 @@ meteor deploy my-app-with-some-name --settings settings.json
 Your app is now published at <b>my-app-with-some-name.meteor.com</b>. You can pass this URL to friends and use it with them simultaneously. For production deployment revert to point 5.
 
 
-### 5) Run in Teleport
+### 5) Run in Teleport, distribute
 
 Running your app in Teleport will give you extra benefits of user accounts, video calling, session saving, and other nice things. More info coming soon.
 
