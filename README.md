@@ -27,6 +27,8 @@ cd teleport-examples/basic
 
 Open localhost:3000 in a browser, wait for the session to start, then copy the URL into the other browser. You need at least two browsers to test multi user apps.
 
+<b>Note the URL</b>, it has the <b>accessKey</b> appended, this is what groups the users into a session, or a "room". In code, you can always call accessKey() function to read it. All the users with the same URL will operate in the same session.
+
 
 ### 3) Roll your own
 
@@ -41,7 +43,7 @@ cd my-app-with-some-name
 Here you can make all the changes you want inside the client folder. More docs coming soon on how to use the API.
 
 
-### 4) Deploy and distribute
+### 4) Deploy and test
 
 ```
 meteor deploy my-app-with-some-name --settings settings.json
@@ -49,9 +51,9 @@ meteor deploy my-app-with-some-name --settings settings.json
 Your app is now published at <b>my-app-with-some-name.meteor.com</b>. You can pass this URL to friends and use it with them simultaneously. For production deployment revert to point 5.
 
 
-### 5) Run in Teleport
+### 5) Run in Teleport, distribute
 
-Running your app in Teleport will give you extra benefits of user accounts, video calling, session saving, and other nice things. More info coming soon.
+Running your app in Teleport will give you extra benefits of user accounts, video calling, session saving, and other nice things. More info coming soon. Start a session to get the flavor: www.tport.to
 
 
 
