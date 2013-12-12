@@ -1,4 +1,4 @@
-Teleport API provides all the bells and whistles for developers to create, test, and distribute multiuser apps and games. It is build on Meteor. Meteor is to Teleport what C is to Unix.
+Teleport API provides all the bells and whistles for developers to create, test, and distribute multiuser apps and games. It is built on Meteor. Meteor is to Teleport what C is to Unix.
 
 ### 1) Make sure you have everything installed
 
