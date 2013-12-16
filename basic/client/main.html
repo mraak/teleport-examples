@@ -1,6 +1,9 @@
 <template name="app">
 	<div id="app">
+		{{#isolate}}
 		{{> users}}
+		{{/isolate}}
+		
 		<h1>Welcome to my Teleport app</h1>
 		<p>Let's play, open in more browsers</p>
 		<p>Score: <span id="score"></span></p>

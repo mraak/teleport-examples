@@ -7,8 +7,8 @@
     "packages": {
       "tport-library": {
         "git": "https://github.com/mloncaric/tport-library.git",
-        "tag": "v0.1.3",
-        "commit": "c72803c06a5b2cba14c71bb3722408337c6321e2"
+        "tag": "v0.1.10",
+        "commit": "612ed1eefc393991300ca58efc2700e5db08f56d"
       },
       "router": {
         "git": "https://github.com/tmeasday/meteor-router.git",

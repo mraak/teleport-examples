@@ -1,7 +1,8 @@
 <template name="app">
 	<div id="app">
+		{{#isolate}}
 		{{> users}}
-		
+		{{/isolate}}
 		
 		<canvas id="drawCanvas" width="960" height="400"></canvas>
 	</div>
