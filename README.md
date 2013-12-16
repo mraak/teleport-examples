@@ -29,6 +29,8 @@ git clone https://github.com/mraak/teleport-examples.git
 
 cd teleport-examples/paint
 
+mrt add tport-library
+
 ./run
 ```
 
