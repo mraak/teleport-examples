@@ -1,5 +1,12 @@
 Teleport API provides all the bells and whistles for developers to create, test, and distribute multiuser apps and games. It is built on Meteor. Meteor is to Teleport what C is to Unix.
 
+
+<b>Live video consultancy and chat, book here and talk to committers<b>
+
+[<img src="https://d15c0umzzp6r0p.cloudfront.net/static/images/widgets/blogo-b.png">](http://tport.to/alen-b)
+
+
+
 ### 1) Make sure you have everything installed
 
 Install node
