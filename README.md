@@ -27,7 +27,7 @@ npm install -g meteorite
 ```
 git clone https://github.com/mraak/teleport-examples.git
 
-cd teleport-examples/basic
+cd teleport-examples/paint
 
 ./run
 ```
